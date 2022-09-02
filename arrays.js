@@ -3,7 +3,7 @@
 
 const faveColors = ['red', 'green', 'black']
 
-var colorcopy = faveColors.slice(0, 1, 2)
+var colorcopy = faveColors.slice(0, 1, 2);
 
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
@@ -34,4 +34,6 @@ newnumbers.splice(0, 0, 4)
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
 const answers =[]
-for (let i = 0; i < bigOrSmallArray; i++)
+for (let i = 0; i < bigOrSmallArray; i++) {
+  answers.push('big')
+}
